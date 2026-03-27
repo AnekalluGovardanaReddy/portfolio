@@ -40,6 +40,7 @@ export function Footer() {
                 className="p-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-full transition-all duration-300 hover:scale-110"
               >
                 <Github size={20} />
+       
               </a>
               <a
                 href="https://www.linkedin.com/in/anekallu-govardanareddy-494376247/"
@@ -124,11 +125,6 @@ export function Footer() {
         </div>
 
         {/* Success Message */}
-        <div className="text-center mt-8 p-4 bg-accent/10 rounded-lg border border-accent/20">
-          <p className="text-accent font-semibold">
-            🚀 Ready to collaborate? Let's build something amazing together!
-          </p>
-        </div>
       </div>
     </footer>
   )

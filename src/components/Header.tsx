@@ -55,7 +55,7 @@ export function Header() {
   variant="outline"
   size="sm"
   className="hidden sm:flex items-center gap-2 hover:scale-105 transition-transform"
-  onClick={() => window.open("https://drive.google.com/file/d/1bMfnfPIHCYmOgU5eMJX_WUXv1PB638PY/view?usp=sharing", "_blank")}
+  onClick={() => window.open("https://drive.google.com/file/d/1jfbOxkw9Kp61DaFPbEuFkJ2V5eqZ1uzC/view?usp=sharing", "_blank")}
 >
   <Download size={16} />
   Resume
