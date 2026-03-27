@@ -8,13 +8,13 @@ export function Hero() {
   const titles = [
     "Full Stack Developer", 
     "Problem Solver",
-    "Java Developer"
+    "Software Engineer"
   ]
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTitle((prev) => (prev + 1) % titles.length)
-    }, 500)
+    }, 1000)
     return () => clearInterval(interval)
   }, [])
 
@@ -51,7 +51,7 @@ export function Hero() {
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Computer Science graduate with{" "}
-              <span className="text-accent font-semibold">CGPA 9.45</span> and expertise in{" "}
+              <span className="text-accent font-semibold">CGPA 9.4</span> and expertise in{" "}
               <span className="text-secondary font-semibold">MERN Stack</span> development.
               Passionate about creating impactful web applications.
             </p>
@@ -63,7 +63,7 @@ export function Hero() {
               className="btn-hero group"
               size="lg"
             >
-              <a href="#projects">View My Work</a>
+              <a href="/#projects">View My Work</a>
               <ArrowDown className="ml-2 group-hover:translate-y-1 transition-transform" size={20} />
             </Button>
             
@@ -110,8 +110,8 @@ export function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12 max-w-2xl mx-auto">
             {[
-              { number: "9.45", label: "CGPA", suffix: "" },
-              { number: "150", label: "DSA Problems", suffix: "+" },
+              { number: "9.4", label: "CGPA", suffix: "" },
+              { number: "200", label: "DSA Problems", suffix: "+" },
               { number: "8", label: "Projects", suffix: "+" }
             ].map((stat, index) => (
               <div 

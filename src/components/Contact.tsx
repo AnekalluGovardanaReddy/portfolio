@@ -45,8 +45,8 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Tirupati, Andhra Pradesh",
-      href: "#"
+      value: "Narasaraopet, Andhra Pradesh",
+      href: "https://www.google.com/maps/place/Narasaraopeta,+Andhra+Pradesh"
     }
   ]
 

@@ -4,6 +4,21 @@ export function Experience() {
   const experiences = [
     {
       type: "experience",
+      title: "Generative AI Intern",
+      organization: "AICTE Virtual Internship",
+      period: "Jul 2025 – Sep 2025",
+      location: "Virtual",
+      description: "Developed AI-powered applications using Google Cloud Generative AI tools, implementing LLM workflows, prompt engineering, and model optimization for real-world use cases.",
+      achievements: [
+        "Built and optimized LLM-based workflows using prompt engineering techniques",
+        "Designed scalable GenAI solutions using Google Cloud tools",
+        "Improved automation, accuracy, and efficiency across project tasks"
+      ],
+      icon: Briefcase,
+      color: "from-purple-500 to-pink-500"
+    },
+    {
+      type: "experience",
       title: "Web Full Stack Developer Intern",
       organization: "AICTE Virtual Internship",
       period: "Oct 2024 – Dec 2024",
@@ -11,7 +26,7 @@ export function Experience() {
       description: "Built an Expense Tracker application using the MERN stack with CRUD operations, real-time balance updates, and category-based expense tracking.",
       achievements: [
         "Integrated JWT authentication for secure user sessions",
-        "Developed responsive UI with React and Tailwind CSS", 
+        "Developed responsive UI with React and Tailwind CSS",
         "Improved application security, usability, and efficiency"
       ],
       icon: Briefcase,
@@ -28,7 +43,7 @@ export function Experience() {
       location: "Tirupati, Andhra Pradesh",
       description: "Currently pursuing Bachelor's degree with excellent academic performance and strong foundation in computer science fundamentals.",
       achievements: [
-        "Current CGPA: 9.45/10.0",
+        "Current CGPA: 9.4/10.0",
         "Strong coursework in DSA, DBMS, Computer Networks",
         "Active participation in coding competitions",
         "Consistent academic excellence"
@@ -37,7 +52,7 @@ export function Experience() {
       color: "from-green-500 to-emerald-500"
     },
     {
-      type: "education", 
+      type: "education",
       title: "Intermediate in MPC",
       organization: "Oxford Junior College",
       period: "2019 – 2021",
@@ -62,7 +77,7 @@ export function Experience() {
     },
     {
       title: "Young Professional Certification",
-      issuer: "TCS iON Career Edge", 
+      issuer: "TCS iON Career Edge",
       description: "Professional development and career readiness certification"
     },
     {
@@ -90,7 +105,7 @@ export function Experience() {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {allExperiences.map((item, index) => (
-              <div 
+              <div
                 key={index}
                 className="timeline-item animate-slide-in-right"
                 style={{ animationDelay: `${index * 0.2}s` }}
@@ -100,14 +115,14 @@ export function Experience() {
                     <div className={`p-3 rounded-lg bg-gradient-to-r ${item.color} text-white flex-shrink-0`}>
                       <item.icon size={24} />
                     </div>
-                    
+
                     <div className="flex-1">
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                         <div>
                           <h3 className="text-xl font-bold text-foreground">{item.title}</h3>
                           <p className="text-primary font-semibold">{item.organization}</p>
                         </div>
-                        
+
                         <div className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right">
                           <div className="flex items-center space-x-1">
                             <Calendar size={14} />
@@ -143,10 +158,10 @@ export function Experience() {
           <h3 className="text-3xl font-bold text-center mb-12">
             <span className="glow-text">Certifications</span>
           </h3>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {certifications.map((cert, index) => (
-              <div 
+              <div
                 key={cert.title}
                 className="card-hover p-6 text-center group"
                 style={{ animationDelay: `${index * 0.1}s` }}

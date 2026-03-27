@@ -9,7 +9,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const quickLinks =[
-    { label: "About", href: "#home" },
+    { label: "Home", href: "#home" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
     { label: "Experience & Education", href: "#experience" },
@@ -94,7 +94,7 @@ export function Footer() {
                   +91 8555820946
                 </a>
               </p>
-              <p>Tirupati, Andhra Pradesh</p>
+              <p>Narasaraopet, Andhra Pradesh</p>
             </div>
           </div>
         </div>
@@ -106,8 +106,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           
           <div className="flex items-center space-x-2 text-muted-foreground">
-            <span>© {currentYear} Made with</span>
-            <Heart className="text-red-500 animate-pulse" size={16} />
+            <span>© {currentYear} All Rights reserved</span>
             <span>by Govardana Reddy</span>
           </div>
 

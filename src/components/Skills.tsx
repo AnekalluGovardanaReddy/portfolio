@@ -91,7 +91,7 @@ export function Skills() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-center justify-center space-x-3 p-4 bg-accent/10 rounded-lg">
                 <Code2 className="text-accent" size={24} />
-                <span className="text-lg font-semibold">150+ DSA Problems Solved</span>
+                <span className="text-lg font-semibold">200+ DSA Problems Solved</span>
               </div>
               <div className="flex items-center justify-center space-x-3 p-4 bg-secondary/10 rounded-lg">
                 <Smartphone className="text-secondary" size={24} />
